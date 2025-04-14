@@ -16,5 +16,9 @@ html, body {
 .container {
     width: 100%;
     padding: 0 1.2rem;
-    
+
+}
+
+.sub_container {
+    width: 120rem;
 }
