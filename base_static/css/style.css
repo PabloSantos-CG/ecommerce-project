@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* Transforma 1rem em 10px */
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    padding: 0 1.2rem;
+}
