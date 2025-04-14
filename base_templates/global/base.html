@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    {% include "global/components/metadata.html" %}
+    <title>{% block title %}{% endblock title %} | Loja Online</title>
+</head>
+
+<body>
+    {% include 'global/components/header.html' %}
+
+    <main class="main-content container">
+        {% block content %}{% endblock content %}
+    </main>
+
+    {% include 'global/components/footer.html' %}
+</body>
+
+</html>
